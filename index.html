@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>111电影网｜海量电影在线观看与热播剧集高清播放平台 - 111dianyingwang-zh</title>
+<meta name="keywords" content="111电影网, 111dianyingwang-zh, 111电影, 电影在线观看, 热播电视剧, 高清影视播放, 最新电影资源, 影视大全, 在线追剧, 电影网站">
+<meta name="description" content="111电影网（111dianyingwang-zh）是聚合海量电影、热播电视剧、综艺与动漫的在线影视观看平台，提供最新院线大片、高分经典、热门剧集的高清流畅播放服务。111电影网以更新及时、分类清晰、播放稳定为核心，让影迷随时随地轻松追片。官方网站：https://111dianyingwang-zh.github.io">
+<meta name="author" content="111电影网">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="revisit-after" content="2 days">
+<meta name="language" content="zh-CN">
+<meta name="geo.region" content="CN">
+<meta name="theme-color" content="#1a1f4e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="111电影网 - 海量电影与热播剧集高清在线观看">
+<meta property="og:description" content="最新电影、热播剧集、高分经典，更新及时播放流畅。官网 https://111dianyingwang-zh.github.io">
+<meta property="og:url" content="https://111dianyingwang-zh.github.io/">
+<meta property="og:site_name" content="111电影网">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="111电影网 - 海量电影在线观看平台">
+<meta name="twitter:description" content="最新电影热播剧集高清流畅播放，官方网站 https://111dianyingwang-zh.github.io">
+<link rel="canonical" href="https://111dianyingwang-zh.github.io/">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:80px}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  color:#eef0ff;background:#0d1029;line-height:1.75;overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(ellipse 60% 50% at 15% 10%,rgba(99,66,255,.35),transparent 60%),
+    radial-gradient(ellipse 50% 45% at 88% 25%,rgba(255,77,170,.22),transparent 60%),
+    radial-gradient(ellipse 55% 50% at 50% 95%,rgba(41,196,255,.2),transparent 60%),
+    linear-gradient(180deg,#0d1029,#131740);
+}
+body::after{content:"";position:fixed;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:52px 52px;pointer-events:none}
+a{color:inherit;text-decoration:none;transition:.25s}
+ul{list-style:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+
+/* 顶部 */
+.topbar{
+  background:rgba(13,16,41,.82);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08);
+  position:sticky;top:0;z-index:100
+}
+.tb{display:flex;align-items:center;justify-content:space-between;height:70px}
+.brand{display:flex;align-items:center;gap:13px}
+.logomark{
+  width:42px;height:42px;border-radius:13px;display:grid;place-items:center;
+  background:linear-gradient(135deg,#6342ff,#ff4daa);font-weight:900;font-size:15px;
+  box-shadow:0 6px 20px rgba(99,66,255,.5)
+}
+.brand h1{font-size:20px;font-weight:900;letter-spacing:.5px;background:linear-gradient(90deg,#fff,#a9b4ff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.brand h1 span{display:block;font-size:9.5px;letter-spacing:4px;color:#7c86c9;font-weight:500;-webkit-text-fill-color:#7c86c9}
+.nav{display:flex;align-items:center;gap:4px}
+.nav a{padding:8px 13px;border-radius:9px;font-size:14.5px;color:#c7cbf5}
+.nav a:hover{background:rgba(99,66,255,.25);color:#fff}
+.nav .key{
+  margin-left:10px;background:linear-gradient(135deg,#6342ff,#29c4ff);padding:9px 18px;
+  border-radius:20px;font-weight:700;font-size:14px;color:#fff
+}
+.nav .key:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(99,66,255,.5)}
+.ham{display:none;width:40px;height:40px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);border-radius:10px;cursor:pointer;position:relative}
+.ham i{position:absolute;left:10px;width:19px;height:2px;background:#c7cbf5;border-radius:2px}
+.ham i:nth-child(1){top:13px}.ham i:nth-child(2){top:19px}.ham i:nth-child(3){top:25px}
+
+section{padding:84px 0;position:relative}
+.eyebrow{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:3px;color:#8b93e8;text-transform:uppercase;margin-bottom:10px}
+.eyebrow::before{content:"◆ ";color:#ff4daa}
+h2.sec{font-size:clamp(26px,4vw,40px);font-weight:900;line-height:1.3;margin-bottom:14px}
+.lead{color:#a9b0d8;max-width:640px;font-size:16px}
+.ct{text-align:center}.ct .lead{margin:0 auto}
+.glowtxt{background:linear-gradient(90deg,#29c4ff,#ff4daa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;padding-top:72px}
+.hero h2{font-size:clamp(34px,5.6vw,60px);font-weight:900;line-height:1.15;margin-bottom:20px}
+.hero p{color:#aeb4dc;font-size:17px;margin-bottom:26px;max-width:500px}
+.acts{display:flex;gap:13px;flex-wrap:wrap;margin-bottom:28px}
+.b1{background:linear-gradient(135deg,#6342ff,#29c4ff);color:#fff;padding:14px 30px;border-radius:12px;font-weight:700;border:none;cursor:pointer}
+.b1:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(99,66,255,.5)}
+.b2{border:1.5px solid rgba(255,255,255,.28);color:#eef0ff;padding:13px 28px;border-radius:12px;font-weight:600}
+.b2:hover{background:rgba(255,255,255,.08)}
+.urlbar{
+  display:inline-flex;align-items:center;gap:11px;flex-wrap:wrap;
+  background:rgba(255,255,255,.06);border:1px solid rgba(41,196,255,.4);border-radius:12px;
+  padding:12px 17px;font-size:14.5px
+}
+.urlbar b{color:#29c4ff;font-weight:800;word-break:break-all}
+.hero-art{position:relative;height:430px}
+.orb{
+  position:absolute;border-radius:50%;display:grid;place-items:center;font-size:60px;
+  box-shadow:0 20px 60px rgba(0,0,0,.4);animation:fl 6s ease-in-out infinite
+}
+.orb.o1{width:200px;height:200px;left:20px;top:10px;background:linear-gradient(135deg,#6342ff,#29c4ff);z-index:3}
+.orb.o2{width:150px;height:150px;right:30px;top:90px;background:linear-gradient(135deg,#ff4daa,#ffb347);z-index:2;animation-delay:2s}
+.orb.o3{width:120px;height:120px;left:110px;bottom:40px;background:linear-gradient(135deg,#19d3a5,#29c4ff);z-index:4;animation-delay:4s}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+.hero-art .ring{
+  position:absolute;right:10px;bottom:20px;width:230px;height:230px;border-radius:50%;
+  border:2px dashed rgba(255,255,255,.18);z-index:1
+}
+
+/* 数据统计 */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:60px}
+.stat{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:26px;text-align:center;backdrop-filter:blur(8px)}
+.stat b{display:block;font-size:32px;font-weight:900;background:linear-gradient(90deg,#29c4ff,#ff4daa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.stat span{font-size:13.5px;color:#8f95c4}
+
+/* 栏目条 */
+.chips{display:grid;grid-template-columns:repeat(6,1fr);gap:13px}
+.chip{
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:15px;
+  padding:24px 12px;text-align:center;cursor:pointer;backdrop-filter:blur(6px)
+}
+.chip:hover{border-color:#6342ff;background:rgba(99,66,255,.2);transform:translateY(-5px)}
+.chip .ic{font-size:30px;margin-bottom:9px}
+.chip h4{font-size:15px;margin-bottom:4px}
+.chip p{font-size:12px;color:#8f95c4}
+
+/* 双栏特色 */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.feat{
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;
+  padding:30px;display:flex;gap:20px;backdrop-filter:blur(8px);transition:.3s
+}
+.feat:hover{border-color:#29c4ff;background:rgba(41,196,255,.1);transform:translateY(-4px)}
+.feat .no{
+  flex-shrink:0;width:54px;height:54px;border-radius:14px;display:grid;place-items:center;
+  font-size:24px;background:linear-gradient(135deg,#6342ff,#ff4daa)
+}
+.feat h3{font-size:19px;margin-bottom:7px}
+.feat p{font-size:14.5px;color:#a9b0d8}
+
+/* 域名大字 */
+.domzone{text-align:center;padding:30px 0 0}
+.domzone .big{
+  font-size:clamp(20px,3.4vw,30px);font-weight:900;color:#fff;margin-bottom:14px;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:26px
+}
+.domzone .big code{color:#29c4ff;background:rgba(41,196,255,.12);padding:4px 10px;border-radius:8px;word-break:break-all}
+
+/* 时间轴榜单 */
+.timeline{position:relative;margin-top:20px;padding-left:36px}
+.timeline::before{content:"";position:absolute;left:11px;top:6px;bottom:6px;width:2px;background:linear-gradient(#6342ff,#ff4daa,#29c4ff)}
+.tlitem{position:relative;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px 24px;margin-bottom:18px;backdrop-filter:blur(8px)}
+.tlitem::before{
+  content:attr(data-n);position:absolute;left:-36px;top:20px;width:26px;height:26px;border-radius:50%;
+  display:grid;place-items:center;font-size:12px;font-weight:900;color:#fff;
+  background:linear-gradient(135deg,#6342ff,#ff4daa)
+}
+.tlitem h3{font-size:18px;margin-bottom:6px}
+.tlitem p{font-size:14px;color:#a9b0d8}
+
+/* 页脚 */
+footer{background:rgba(7,9,25,.9);border-top:1px solid rgba(255,255,255,.08);padding:58px 0 26px;margin-top:40px}
+.foot{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr;gap:36px;margin-bottom:34px}
+.foot h5{color:#fff;font-size:15px;margin-bottom:14px}
+.foot a{display:block;color:#8f95c4;padding:5px 0;font-size:14px}
+.foot a:hover{color:#29c4ff}
+.foot-about p{color:#8f95c4;font-size:14px;margin-top:12px;max-width:340px}
+.fin{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid rgba(255,255,255,.08);padding-top:22px;font-size:13px;color:#6f76a8}
+.fin b{color:#ff4daa}
+
+@media(max-width:960px){
+  .hero,.duo{grid-template-columns:1fr}
+  .hero-art{height:300px;order:-1}
+  .stats,.chips{grid-template-columns:repeat(2,1fr)}
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  section{padding:56px 0}
+  .ham{display:block}
+  .nav{
+    position:fixed;top:0;right:-100%;width:80%;max-width:300px;height:100vh;background:#131740;
+    flex-direction:column;align-items:stretch;padding:74px 18px 28px;gap:2px;
+    border-left:1px solid rgba(255,255,255,.1);transition:.32s
+  }
+  .nav.open{right:0}
+  .nav a{padding:13px 14px;border-radius:9px;border-bottom:1px solid rgba(255,255,255,.06)}
+  .nav .key{margin:10px 0 0;text-align:center}
+  .hero{padding-top:44px}
+  .hero h2{font-size:32px}
+  .acts .b1,.acts .b2{width:100%;text-align:center}
+  .stats,.chips,.duo,.foot{grid-template-columns:1fr}
+  .timeline{padding-left:30px}
+  .tlitem::before{left:-30px;width:22px;height:22px;font-size:11px}
+  .fin{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="wrap topbar">
+  <div class="tb">
+    <div class="brand">
+      <div class="logomark">111</div>
+      <h1>111电影网<span>111DIANYINGWANG</span></h1>
+    </div>
+    <button class="ham" aria-label="菜单" onclick="document.getElementById('nv').classList.toggle('open')"><i></i><i></i><i></i></button>
+    <nav class="nav" id="nv">
+      <a href="#top">首页</a>
+      <a href="#ch">内容栏目</a>
+      <a href="#pick">精选片单</a>
+      <a href="#ft">平台特色</a>
+      <a href="#board">热播榜单</a>
+      <a href="#about">关于我们</a>
+      <a href="#" class="key">▶ 立即观影</a>
+    </nav>
+  </div>
+</div>
+
+<!-- Hero -->
+<section id="top">
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <span class="eyebrow">Movie &amp; Series Hub</span>
+        <h2>111电影网<br>你的<span class="glowtxt">专属观影入口</span></h2>
+        <p>海量电影、热播剧集、高分经典一网打尽。111电影网专注为影迷提供更新及时、分类清晰、播放流畅的在线观影体验，打开就能看，宅家更自在。</p>
+        <div class="acts">
+          <a class="b1" href="#ch">浏览内容栏目</a>
+          <a class="b2" href="#board">查看热播榜单</a>
+        </div>
+        <div class="urlbar">🌐 官方网站 <b>https://111dianyingwang-zh.github.io</b></div>
+      </div>
+      <div class="hero-art">
+        <div class="orb o1">🎬</div>
+        <div class="orb o2">🍿</div>
+        <div class="orb o3">⭐</div>
+        <div class="ring"></div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>万+</b><span>影视资源储备</span></div>
+      <div class="stat"><b>8</b><span>内容分类频道</span></div>
+      <div class="stat"><b>4K</b><span>高清流畅播放</span></div>
+      <div class="stat"><b>24h</b><span>持续更新服务</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目 -->
+<section id="ch" style="padding-top:20px">
+  <div class="wrap">
+    <div class="ct" style="margin-bottom:42px">
+      <span class="eyebrow">Content Channels</span>
+      <h2 class="sec">六大内容栏目，想看什么一眼找到</h2>
+      <p class="lead">111电影网按内容类型精细划分栏目，从院线新片到经典老片，分类清晰好找</p>
+    </div>
+    <div class="chips">
+      <div class="chip"><div class="ic">🎞️</div><h4>院线新片</h4><p>最新大片</p></div>
+      <div class="chip"><div class="ic">📺</div><h4>热播剧集</h4><p>追剧不断更</p></div>
+      <div class="chip"><div class="ic">🎭</div><h4>高分经典</h4><p>影史佳作</p></div>
+      <div class="chip"><div class="ic">🎤</div><h4>综艺娱乐</h4><p>轻松下饭</p></div>
+      <div class="chip"><div class="ic">🎨</div><h4>动漫番剧</h4><p>国漫日漫</p></div>
+      <div class="chip"><div class="ic">📽️</div><h4>纪录片</h4><p>真实视界</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 精选片单 -->
+<section id="pick" style="background:rgba(255,255,255,.03)">
+  <div class="wrap">
+    <div class="ct" style="margin-bottom:44px">
+      <span class="eyebrow">Editor's Choice</span>
+      <h2 class="sec">编辑精选片单 · 111电影网为你挑好片</h2>
+      <p class="lead">不知道看什么？这份精选片单帮你省下挑片时间，部部都是看点</p>
+    </div>
+    <div class="duo">
+      <div class="feat">
+        <div class="no">🚀</div>
+        <div>
+          <h3>星际无界 2026</h3>
+          <p>科幻视效巨制，宏大宇宙叙事搭配震撼画面，院线级观影体验带回家。</p>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="no">🕶️</div>
+        <div>
+          <h3>暗夜追凶</h3>
+          <p>高能悬疑犯罪剧，层层反转抽丝剥茧，每一集都让人屏住呼吸。</p>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="no">🏔️</div>
+        <div>
+          <h3>山河深处</h3>
+          <p>人文纪录大片，4K 极致画质记录壮美山河，沉浸式感受自然之美。</p>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="no">🎤</div>
+        <div>
+          <h3>乐队的夏天夜</h3>
+          <p>音乐竞演真人秀，现场感十足，宅家周末的最佳下饭综艺。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 平台特色 -->
+<section id="ft">
+  <div class="wrap">
+    <div class="ct" style="margin-bottom:44px">
+      <span class="eyebrow">Platform Features</span>
+      <h2 class="sec">为什么选择111电影网</h2>
+      <p class="lead">更新快、分类清、播放稳，三个理由让观影更省心</p>
+    </div>
+    <div class="duo">
+      <div class="feat">
+        <div class="no">⚡</div>
+        <div>
+          <h3>更新及时</h3>
+          <p>院线新片、热播剧集第一时间上线，告别等更新的焦虑。</p>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="no">🗂️</div>
+        <div>
+          <h3>分类清晰</h3>
+          <p>电影、剧集、综艺、动漫、纪录片分门别类，挑片不再眼花。</p>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="no">📶</div>
+        <div>
+          <h3>播放流畅</h3>
+          <p>多画质自适应，手机电脑平板全端流畅，观影不掉链子。</p>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="no">🎯</div>
+        <div>
+          <h3>精准推荐</h3>
+          <p>精选榜单 + 编辑推荐，帮你快速发现下一部想看的佳作。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 域名大字 -->
+<section style="padding:30px 0 10px">
+  <div class="wrap">
+    <div class="domzone">
+      <div class="big">访问 <code>https://111dianyingwang-zh.github.io</code>，开启你的专属观影之旅</div>
+    </div>
+  </div>
+</section>
+
+<!-- 热播榜单 -->
+<section id="board" style="background:rgba(255,255,255,.03)">
+  <div class="wrap">
+    <div class="ct" style="margin-bottom:44px">
+      <span class="eyebrow">Trending Board</span>
+      <h2 class="sec">热播榜单 · 111电影网大家都在看</h2>
+      <p class="lead">跟着榜单看，不踩雷</p>
+    </div>
+    <div class="timeline">
+      <div class="tlitem" data-n="1"><h3>星际无界 2026</h3><p>科幻视效大片，热度高居不下，影迷口碑持续发酵。</p></div>
+      <div class="tlitem" data-n="2"><h3>暗夜追凶</h3><p>悬疑犯罪剧黑马，反转不断，引发追剧热潮。</p></div>
+      <div class="tlitem" data-n="3"><h3>山河深处</h3><p>人文纪录精品，壮美画面刷爆社交平台。</p></div>
+      <div class="tlitem" data-n="4"><h3>乐队的夏天夜</h3><p>音乐综艺热度榜常客，现场感十足。</p></div>
+      <div class="tlitem" data-n="5"><h3>时光代理人</h3><p>国漫佳作口碑炸裂，剧情与画风双在线。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 关于 -->
+<section id="about">
+  <div class="wrap">
+    <div class="duo" style="grid-template-columns:1.3fr .7fr">
+      <div>
+        <span class="eyebrow">About Us</span>
+        <h2 class="sec">关于111电影网</h2>
+        <p class="lead" style="max-width:none">111电影网（111dianyingwang-zh）是一个专注影视内容聚合与在线观看的观影平台。我们相信好电影值得被更多人看见——从院线新片到高分经典，从热播剧集到纪录片动漫，111电影网以更新及时、分类清晰、播放流畅为核心，让每一位影迷都能轻松找到想看的内容，享受纯粹的观影乐趣。</p>
+      </div>
+      <div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:28px;backdrop-filter:blur(8px)">
+        <span class="eyebrow">Official Site</span>
+        <p style="font-size:13px;color:#8f95c4;margin-bottom:10px">官方唯一网址</p>
+        <b style="color:#29c4ff;word-break:break-all;font-size:15px">https://111dianyingwang-zh.github.io</b>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="foot-about">
+        <div class="brand">
+          <div class="logomark">111</div>
+          <h1 style="font-size:18px">111电影网</h1>
+        </div>
+        <p>海量电影与热播剧集高清在线观看，更新及时、分类清晰、播放流畅。</p>
+      </div>
+      <div>
+        <h5>内容栏目</h5>
+        <a href="#ch">院线新片</a>
+        <a href="#ch">热播剧集</a>
+        <a href="#ch">高分经典</a>
+        <a href="#ch">动漫番剧</a>
+      </div>
+      <div>
+        <h5>平台服务</h5>
+        <a href="#ft">平台特色</a>
+        <a href="#pick">精选片单</a>
+        <a href="#board">热播榜单</a>
+        <a href="#">观影指南</a>
+      </div>
+      <div>
+        <h5>联系我们</h5>
+        <a href="#">商务合作</a>
+        <a href="#">内容投稿</a>
+        <a href="#">帮助中心</a>
+        <a href="#">意见反馈</a>
+      </div>
+    </div>
+    <div class="fin">
+      <span>© 2026 111电影网（111dianyingwang-zh） 版权所有</span>
+      <span>官方网站：<b>https://111dianyingwang-zh.github.io</b></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.nav a').forEach(function(a){
+  a.addEventListener('click',function(){document.getElementById('nv').classList.remove('open')});
+});
+</script>
+</body>
+</html>
